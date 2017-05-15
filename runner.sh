@@ -14,9 +14,8 @@ while read -r line; do
 done < "${file}"
 
 if [[ -z ${result} ]]; then
-    echo 'Nothing to include into release. Exiting..'
-    exit
+    echo 'Nothing to include into release.'
 else
-    echo 'Following lines will be included into release:'
+    echo 'Following lines should be included into release:'
     echo ${result}
 fi
