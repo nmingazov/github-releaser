@@ -3,7 +3,7 @@ Console-based tool to automatically form releases based on your pull requests.
 
 Usage:
 
-  `docker run -it nmingazov/github-releaser:0.1 -o <owner> -r <repo> -a --only-pulls --use-commit-body`
+  `docker run -it nmingazov/github-releaser:0.1 -o <owner> -r <repo>`
 
 Based on the [github-changes](https://github.com/lalitkapoor/github-changes).
 
